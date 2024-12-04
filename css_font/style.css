@@ -1,0 +1,56 @@
+body{
+    background-color: aquamarine;
+}
+
+@font-face {
+    font-family: "Pacifico";
+  
+    src: url('.//Pacifico-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: "Handjet";
+  
+    src: url('.//Handjet-Black.ttf');
+  }
+
+  
+  h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    font-weight: 70px;
+   }
+  
+   p{
+    color: blue;
+    font-family: 'Handjet', cursive;
+    font-size: 20px;
+    font-weight: 30px;
+   }
+
+   i{
+    line-height: 1.5;
+    width: 150px;
+    height: 150px;
+    background:rgb(223, 10, 10) ;
+    padding: 10px;
+    border-radius: 100%;
+    margin: 40px;
+    box-shadow: 0 0 20px rgba(101, 133, 75, 0.1);
+    transition: all 0.3s;
+   }
+   
+   i:hover{
+    background:hsla(71, 98%, 49%, 0.593) ;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transform: scale(1.2);
+   }
+
+   .icon-block{
+    text-align: center;
+}
+
+i{
+    font-size: 150px;
+    color:magenta;
+    }
